@@ -16,7 +16,7 @@ export function CityItem({ city }: CityItemType) {
 
   function handleDeleteCity(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
-    void deleteCity(id!);
+    void deleteCity(id);
   }
 
   return (
